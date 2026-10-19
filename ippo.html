@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ippo — Политика конфиденциальности / Privacy Policy</title>
+<meta name="description" content="Политика конфиденциальности приложения Ippo для японской ходьбы. Privacy policy of the Ippo interval walking app.">
+<style>
+  :root {
+    --fast: #C8391B;
+    --slow: #2A3F7A;
+    --slow-pale: #DCE4F5;
+    --ground: #F4F5F7;
+    --surface: #FFFFFF;
+    --ink: #16181D;
+    --ink-muted: #5B6170;
+    --line: #E3E5EA;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --fast: #E2583A;
+      --slow: #A9BCEB;
+      --slow-pale: #1F2A45;
+      --ground: #111317;
+      --surface: #1A1D23;
+      --ink: #ECEEF2;
+      --ink-muted: #A3A9B6;
+      --line: #2B2F38;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .logo {
+    width: 44px; height: 44px; border-radius: 12px; background: #16181D;
+    display: grid; place-content: center; gap: 4px; flex: none;
+  }
+  .logo i { display: block; height: 6px; border-radius: 3px; }
+  .logo i:first-child { width: 24px; background: #E2583A; }
+  .logo i:last-child { width: 16px; background: #A9BCEB; }
+  .brand { font-weight: 800; font-size: 24px; letter-spacing: -0.02em; margin-right: auto; }
+  .lang { display: flex; gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px; }
+  .lang a {
+    color: var(--ink-muted); text-decoration: none; font-weight: 600; font-size: 14px;
+    padding: 6px 12px; border-radius: 999px;
+  }
+  .lang a[aria-current="true"] { background: var(--ink); color: var(--ground); }
+  h1 { font-size: clamp(28px, 6vw, 40px); line-height: 1.15; letter-spacing: -0.02em; margin: 32px 0 8px; }
+  .meta { color: var(--ink-muted); margin: 0 0 28px; }
+  h2 { font-size: 21px; line-height: 1.3; margin: 40px 0 12px; letter-spacing: -0.01em; }
+  h3 { font-size: 17px; margin: 20px 0 6px; }
+  p, li { margin: 0 0 12px; }
+  ul { padding-left: 22px; margin: 0 0 12px; }
+  a { color: var(--slow); }
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 12px; margin: 0 0 8px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 18px 20px; }
+  .card strong { display: block; margin-bottom: 4px; }
+  .card p { margin: 0; color: var(--ink-muted); font-size: 15px; line-height: 1.5; }
+  .card.accent { border-left: 6px solid var(--fast); }
+  .card.calm { border-left: 6px solid var(--slow); }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; background: var(--surface); border-radius: 16px; overflow: hidden; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 12px 14px; border-bottom: 1px solid var(--line); }
+  th { background: var(--slow-pale); color: var(--ink); font-weight: 600; }
+  tr:last-child td { border-bottom: none; }
+  code { font: 13px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; overflow-wrap: anywhere; }
+  .note { background: var(--slow-pale); border-radius: 16px; padding: 14px 18px; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--ink-muted); font-size: 14px; }
+  /* Without JavaScript both languages are shown one after the other. */
+  .js article[hidden] { display: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo" aria-hidden="true"><i></i><i></i></div>
+    <span class="brand">Ippo</span>
+    <nav class="lang" aria-label="Язык / Language">
+      <a href="#ru" data-lang="ru" lang="ru">Русский</a>
+      <a href="#en" data-lang="en" lang="en">English</a>
+    </nav>
+  </header>
+
+  <!-- ===================== РУССКИЙ ===================== -->
+  <article id="ru" lang="ru">
+    <h1>Политика конфиденциальности</h1>
+    <p class="meta">Приложение Ippo для Android · Действует с 19 октября 2026 г.</p>
+
+    <div class="summary">
+      <div class="card accent"><strong>Без аккаунта и серверов</strong><p>Нет регистрации, рекламы и аналитики. Приложение не выходит в интернет.</p></div>
+      <div class="card calm"><strong>Данные на вашем телефоне</strong><p>Тренировки и настройки хранятся на устройстве. Разработчик их не получает.</p></div>
+      <div class="card calm"><strong>Health Connect по желанию</strong><p>Только запись тренировок и шагов, если вы сами включите синхронизацию. Чтения нет.</p></div>
+      <div class="card accent"><strong>Шаги только во время тренировки</strong><p>Датчик шагов работает, только пока идёт тренировка.</p></div>
+    </div>
+
+    <h2>1. Кто мы</h2>
+    <p>Приложение Ippo («приложение») разрабатывает LazyManDev («мы»). Эта политика объясняет, какие данные обрабатывает приложение, зачем и где они хранятся. Вопросы можно задать по адресу <a href="mailto:alexei.popov87@gmail.com">alexei.popov87@gmail.com</a>.</p>
+
+    <h2>2. Какие данные обрабатывает приложение</h2>
+    <h3>Данные о тренировках</h3>
+    <p>Когда вы проводите тренировку, приложение сохраняет:</p>
+    <ul>
+      <li>дату, время начала и окончания;</li>
+      <li>продолжительность ходьбы и количество пройденных циклов;</li>
+      <li>число шагов за тренировку, если разрешён подсчёт шагов;</li>
+      <li>вашу оценку нагрузки («легко», «нормально», «тяжело»), если вы её поставите.</li>
+    </ul>
+    <h3>Настройки</h3>
+    <p>Программа тренировки (длительность фаз и число циклов), цель на неделю, настройки подсказок (голос, вибрация, сигнал), включена ли синхронизация с Health Connect, пройдено ли знакомство с приложением.</p>
+    <h3>Где хранятся данные</h3>
+    <p>Всё перечисленное хранится только в памяти приложения на вашем устройстве. Они не попадают в резервные копии Android и не переносятся на другие устройства. У приложения нет сервера и нет доступа к интернету. Мы не получаем ваши данные и не можем их увидеть.</p>
+
+    <h2>3. Чего приложение не делает</h2>
+    <ul>
+      <li>Не требует регистрации и не создаёт учётных записей.</li>
+      <li>Не показывает рекламу, не содержит аналитики и сторонних SDK для сбора данных.</li>
+      <li>Не определяет ваше местоположение.</li>
+      <li>Не продаёт, не передаёт и не раскрывает ваши данные третьим лицам.</li>
+      <li>Не читает данные из Health Connect и других приложений.</li>
+    </ul>
+
+    <h2>4. Разрешения</h2>
+    <p>Все разрешения, о которых спрашивает система, необязательны: тренировка работает и без них.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Разрешение</th><th>Зачем</th></tr></thead>
+        <tbody>
+          <tr><td>Уведомления</td><td>Показать таймер, текущую фазу и кнопки паузы на экране блокировки во время тренировки.</td></tr>
+          <tr><td>Физическая активность</td><td>Считать шаги во время тренировки. Датчик шагов включается со стартом тренировки и выключается после неё.</td></tr>
+          <tr><td>Health Connect: запись тренировок и шагов</td><td>Сохранить завершённую тренировку в Health Connect, если вы включили синхронизацию.</td></tr>
+          <tr><td>Фоновая работа (foreground service типа «health»), запрет сна процессора, вибрация</td><td>Вести отсчёт, давать подсказки голосом и вибрацией при выключенном экране. Эти разрешения выдаются при установке и не дают доступа к личным данным.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>5. Health Connect</h2>
+    <p>Синхронизация с Health Connect выключена по умолчанию. Если вы включите её в настройках и дадите разрешения, Ippo после каждой сохранённой тренировки записывает в Health Connect:</p>
+    <ul>
+      <li><b>тренировку</b> (тип «ходьба», время начала и окончания);</li>
+      <li><b>шаги</b> за время тренировки, если они были посчитаны.</li>
+    </ul>
+    <p>Ippo запрашивает только разрешения на запись и <b>никогда не читает</b> данные из Health Connect. Записанные данные хранятся в Health Connect на вашем устройстве по его правилам. Ими могут пользоваться другие приложения, которым вы сами дали доступ. Очистка данных или удаление Ippo не удаляет записи из Health Connect. Отозвать доступ и удалить записи можно в настройках Health Connect.</p>
+    <p>Использование данных Health Connect соответствует <a href="https://support.google.com/googleplay/android-developer/answer/12991134" rel="noopener">политике разрешений Health Connect</a>, включая требования об ограниченном использовании (Limited Use). Эти данные не используются для рекламы, не продаются и не передаются третьим лицам.</p>
+
+    <h2>6. Голосовые подсказки</h2>
+    <p>Подсказки («Быстро», «Спокойно», номер цикла) озвучивает системный синтезатор речи вашего устройства. Он получает только текст подсказки, в котором нет личных данных.</p>
+
+    <h2>7. Хранение и удаление</h2>
+    <p>Данные хранятся, пока вы их не удалите. Чтобы удалить всё, очистите данные приложения в настройках Android («Приложения → Ippo → Хранилище → Очистить данные») или удалите приложение. Данные, записанные в Health Connect, удаляются в настройках Health Connect.</p>
+
+    <h2>8. Дети</h2>
+    <p>Приложение не предназначено для детей младше 13 лет. Мы не собираем данные ни о каких пользователях, в том числе о детях.</p>
+
+    <h2>9. Изменения политики</h2>
+    <p>Если политика изменится, мы обновим эту страницу и дату вступления в силу. О существенных изменениях сообщим в приложении.</p>
+
+    <h2>10. Контакты</h2>
+    <p>Вопросы о конфиденциальности: <a href="mailto:alexei.popov87@gmail.com">alexei.popov87@gmail.com</a>.</p>
+
+    <p class="note">Ippo не является медицинским изделием. Перед началом тренировок посоветуйтесь с врачом, если у вас есть проблемы с сердцем или суставами.</p>
+  </article>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <article id="en" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Ippo for Android · Effective October 19, 2026</p>
+
+    <div class="summary">
+      <div class="card accent"><strong>No account, no servers</strong><p>No sign-up, ads or analytics. The app does not connect to the internet.</p></div>
+      <div class="card calm"><strong>Your data stays on your phone</strong><p>Workouts and settings are stored on your device. The developer never receives them.</p></div>
+      <div class="card calm"><strong>Health Connect is optional</strong><p>Write-only, for workouts and steps, and only if you turn sync on. No reading.</p></div>
+      <div class="card accent"><strong>Steps only during a workout</strong><p>The step sensor runs only while a workout is in progress.</p></div>
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p>The Ippo app (“the app”) is developed by LazyManDev (“we”). This policy explains what data the app handles, why, and where it is stored. Questions: <a href="mailto:alexei.popov87@gmail.com">alexei.popov87@gmail.com</a>.</p>
+
+    <h2>2. Data the app handles</h2>
+    <h3>Workout data</h3>
+    <p>When you complete a workout, the app stores:</p>
+    <ul>
+      <li>the date, start and end time;</li>
+      <li>walking time and the number of completed cycles;</li>
+      <li>the step count for the workout, if step counting is allowed;</li>
+      <li>how the workout felt (“easy”, “ok”, “hard”), if you rate it.</li>
+    </ul>
+    <h3>Settings</h3>
+    <p>Your workout program (phase lengths and number of cycles), weekly goal, cue settings (voice, vibration, beep), whether Health Connect sync is on, and whether you have finished the introduction.</p>
+    <h3>Where the data is stored</h3>
+    <p>All of this is stored only in the app’s storage on your device. It is excluded from Android backups and is not transferred to other devices. The app has no server and no internet access. We do not receive your data and cannot see it.</p>
+
+    <h2>3. What the app does not do</h2>
+    <ul>
+      <li>It does not require sign-up or create accounts.</li>
+      <li>It shows no ads and contains no analytics or third-party data-collection SDKs.</li>
+      <li>It does not access your location.</li>
+      <li>It does not sell, share or disclose your data to third parties.</li>
+      <li>It does not read data from Health Connect or other apps.</li>
+    </ul>
+
+    <h2>4. Permissions</h2>
+    <p>Every permission the system asks for is optional: workouts run without them.</p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Permission</th><th>Purpose</th></tr></thead>
+        <tbody>
+          <tr><td>Notifications</td><td>Show the timer, current phase and pause button on the lock screen during a workout.</td></tr>
+          <tr><td>Physical activity</td><td>Count steps during a workout. The step sensor starts with the workout and stops when it ends.</td></tr>
+          <tr><td>Health Connect: write exercise and steps</td><td>Save a finished workout to Health Connect if you turned sync on.</td></tr>
+          <tr><td>Foreground service (“health” type), wake lock, vibration</td><td>Keep counting and give voice and vibration cues with the screen off. These are granted at install and give no access to personal data.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>5. Health Connect</h2>
+    <p>Health Connect sync is off by default. If you turn it on in settings and grant access, Ippo writes the following to Health Connect after each saved workout:</p>
+    <ul>
+      <li><b>an exercise session</b> (type “walking”, start and end time);</li>
+      <li><b>steps</b> during the workout, if they were counted.</li>
+    </ul>
+    <p>Ippo requests write permissions only and <b>never reads</b> data from Health Connect. Written data is kept in Health Connect on your device under its own rules and is available to other apps you have allowed. Clearing Ippo’s data or uninstalling it does not remove these records from Health Connect. You can revoke access and delete records in the Health Connect settings.</p>
+    <p>Our use of Health Connect data follows the <a href="https://support.google.com/googleplay/android-developer/answer/12991134" rel="noopener">Health Connect Permissions policy</a>, including the Limited Use requirements. This data is not used for advertising, is not sold and is not shared with third parties.</p>
+
+    <h2>6. Voice cues</h2>
+    <p>Cues (“Fast”, “Easy”, the cycle number) are spoken by your device’s system text-to-speech engine. It receives only the cue text, which contains no personal data.</p>
+
+    <h2>7. Retention and deletion</h2>
+    <p>Data is kept until you delete it. To delete everything, clear the app’s data in Android settings (“Apps → Ippo → Storage → Clear storage”) or uninstall the app. Data written to Health Connect is deleted in the Health Connect settings.</p>
+
+    <h2>8. Children</h2>
+    <p>The app is not intended for children under 13. We do not collect data about any users, including children.</p>
+
+    <h2>9. Changes to this policy</h2>
+    <p>If this policy changes, we will update this page and its effective date. We will announce significant changes in the app.</p>
+
+    <h2>10. Contact</h2>
+    <p>Privacy questions: <a href="mailto:alexei.popov87@gmail.com">alexei.popov87@gmail.com</a>.</p>
+
+    <p class="note">Ippo is not a medical device. Talk to your doctor before you start if you have heart or joint problems.</p>
+  </article>
+
+  <footer>© 2026 LazyManDev · Ippo</footer>
+</div>
+<script>
+  (function () {
+    var root = document.documentElement;
+    root.classList.add('js');
+    var articles = { ru: document.getElementById('ru'), en: document.getElementById('en') };
+    var links = document.querySelectorAll('.lang a');
+    function show(lang) {
+      Object.keys(articles).forEach(function (key) { articles[key].hidden = key !== lang; });
+      links.forEach(function (a) { a.setAttribute('aria-current', String(a.dataset.lang === lang)); });
+      root.lang = lang;
+      document.title = lang === 'ru' ? 'Ippo — Политика конфиденциальности' : 'Ippo — Privacy Policy';
+    }
+    links.forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        show(a.dataset.lang);
+        history.replaceState(null, '', '#' + a.dataset.lang);
+      });
+    });
+    var hash = location.hash.slice(1);
+    var preferred = (navigator.language || 'en').toLowerCase().indexOf('ru') === 0 ? 'ru' : 'en';
+    show(articles[hash] ? hash : preferred);
+  })();
+</script>
+</body>
+</html>
