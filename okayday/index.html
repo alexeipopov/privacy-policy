@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Okayday — Политика конфиденциальности / Privacy Policy</title>
+<meta name="description" content="Политика конфиденциальности приложения Okayday для ежедневной отметки «я в порядке». Privacy policy of the Okayday daily check-in app.">
+<style>
+  :root {
+    --green: #1E6B4E;
+    --green-tint: #D7EBDF;
+    --amber: #B4530A;
+    --ground: #F3F6F2;
+    --surface: #FFFFFF;
+    --ink: #17231D;
+    --ink-muted: #55645B;
+    --line: #DFE6DF;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --green: #7BC8A4;
+      --green-tint: #1C3229;
+      --amber: #F0A65A;
+      --ground: #111613;
+      --surface: #1A211D;
+      --ink: #E9EFEB;
+      --ink-muted: #A3B2A9;
+      --line: #2A342E;
+      color-scheme: dark;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  header { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+  .logo { width: 44px; height: 44px; border-radius: 50%; background: #1E6B4E; display: grid; place-content: center; flex: none; }
+  .brand { font-weight: 800; font-size: 24px; letter-spacing: -0.02em; margin-right: auto; }
+  .lang { display: flex; gap: 4px; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 4px; }
+  .lang a {
+    color: var(--ink-muted); text-decoration: none; font-weight: 600; font-size: 14px;
+    padding: 6px 12px; border-radius: 999px;
+  }
+  .lang a[aria-current="true"] { background: var(--ink); color: var(--ground); }
+  h1 { font-size: clamp(28px, 6vw, 40px); line-height: 1.15; letter-spacing: -0.02em; margin: 32px 0 8px; }
+  .meta { color: var(--ink-muted); margin: 0 0 28px; }
+  h2 { font-size: 21px; line-height: 1.3; margin: 40px 0 12px; letter-spacing: -0.01em; }
+  p, li { margin: 0 0 12px; }
+  ul { padding-left: 22px; margin: 0 0 12px; }
+  a { color: var(--green); }
+  .summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 12px; margin: 0 0 8px; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 18px 20px; }
+  .card strong { display: block; margin-bottom: 4px; }
+  .card p { margin: 0; color: var(--ink-muted); font-size: 15px; line-height: 1.5; }
+  .card.green { border-left: 6px solid var(--green); }
+  .card.amber { border-left: 6px solid var(--amber); }
+  .table-wrap { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; background: var(--surface); border-radius: 16px; overflow: hidden; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 12px 14px; border-bottom: 1px solid var(--line); }
+  th { background: var(--green-tint); color: var(--ink); font-weight: 600; }
+  tr:last-child td { border-bottom: none; }
+  .note { background: var(--green-tint); border-radius: 16px; padding: 14px 18px; }
+  footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); color: var(--ink-muted); font-size: 14px; }
+  /* Without JavaScript both languages are shown one after the other. */
+  .js article[hidden] { display: none; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo" aria-hidden="true">
+      <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+    </div>
+    <span class="brand">Okayday</span>
+    <nav class="lang" aria-label="Язык / Language">
+      <a href="#ru" data-lang="ru" lang="ru">Русский</a>
+      <a href="#en" data-lang="en" lang="en">English</a>
+    </nav>
+  </header>
+
+  <!-- ===================== РУССКИЙ ===================== -->
+  <article id="ru" lang="ru">
+    <h1>Политика конфиденциальности</h1>
+    <p class="meta">Приложение Okayday для Android · Действует с 25 октября 2026 г.</p>
+
+    <div class="summary">
+      <div class="card green"><strong>Только нужное для оповещений</strong><p>Ваше имя, расписание, отметки и до трёх контактов с e-mail. Без геопозиции, рекламы и аналитики.</p></div>
+      <div class="card green"><strong>Без регистрации</strong><p>Аккаунт создаётся анонимно. Мы не знаем ваш e-mail, телефон и Google-аккаунт.</p></div>
+      <div class="card amber"><strong>Письма только по делу</strong><p>Контакты получают вводное письмо, оповещение о пропущенной отметке и отбой. Больше ничего.</p></div>
+      <div class="card amber"><strong>Удаление в одно касание</strong><p>«Настройки → Удалить мои данные» стирает всё с телефона и с сервера сразу.</p></div>
+    </div>
+
+    <h2>1. Кто мы</h2>
+    <p>Приложение Okayday («приложение») разрабатывает LazyManDev («мы»). Эта политика объясняет, какие данные обрабатывает приложение, зачем, где они хранятся и как их удалить. Вопросы можно задать по адресу <a href="mailto:alexei.popov87@gmail.com">alexei.popov87@gmail.com</a>.</p>
+
+    <h2>2. Что делает приложение</h2>
+    <p>Вы раз в день нажимаете «Я в порядке». Если отметки нет к выбранному времени, приложение напоминает ещё раз, а затем наш сервер отправляет письмо людям, которых вы указали. Решение о пропуске принимает сервер, а не телефон: телефон может разрядиться или потеряться.</p>
+    <p class="note">Okayday — не экстренная служба и не медицинское изделие. В экстренной ситуации звоните в местную службу спасения.</p>
+
+    <h2>3. Какие данные мы обрабатываем и зачем</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Данные</th><th>Зачем</th><th>Где хранятся</th></tr></thead>
+        <tbody>
+          <tr><td>Ваше имя (как вы его ввели)</td><td>Чтобы контакты понимали, о ком письмо</td><td>Телефон и сервер</td></tr>
+          <tr><td>Расписание: время напоминания, время на ответ, часовой пояс, дата начала, паузы, язык</td><td>Чтобы сервер вычислял срок отметки в вашем часовом поясе и писал на вашем языке</td><td>Телефон и сервер</td></tr>
+          <tr><td>Отметки «Я в порядке» (дата и время)</td><td>Чтобы понять, что вы в порядке, и показать историю</td><td>Телефон и сервер</td></tr>
+          <tr><td>Доверенные контакты: имя и e-mail (до 3), подтвердил ли контакт письмо</td><td>Вводное письмо, оповещение о пропущенной отметке, отбой, тестовое письмо по вашей просьбе</td><td>Телефон и сервер</td></tr>
+          <tr><td>Анонимный идентификатор пользователя Firebase</td><td>Связать ваши данные на сервере с вашим телефоном без регистрации</td><td>Телефон и сервер</td></tr>
+          <tr><td>Токены App Check (Google Play Integrity)</td><td>Проверка, что запрос пришёл из настоящего приложения. Защищает от рассылки спама через наш сервер</td><td>Проверяются Google, мы их не храним</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Мы <strong>не</strong> собираем геопозицию, контакты из телефонной книги (вы вводите их сами), данные о здоровье, рекламные идентификаторы и не используем аналитику.</p>
+    <p>Разрешение на уведомления нужно только для напоминаний на самом телефоне.</p>
+
+    <h2>4. Кто обрабатывает данные по нашему поручению</h2>
+    <ul>
+      <li><strong>Google Firebase</strong> (Cloud Firestore, Cloud Functions, Firebase Authentication, App Check): хранение данных и работа сервера. Регион размещения — europe-west1 (Бельгия, ЕС). <a href="https://firebase.google.com/support/privacy">Конфиденциальность Firebase</a>.</li>
+      <li><strong>Resend</strong> (США): отправка писем. Получает адрес получателя, ваше имя и текст письма. <a href="https://resend.com/legal/privacy-policy">Политика Resend</a>.</li>
+    </ul>
+    <p>Мы не продаём данные, не передаём их рекламодателям и не используем для рекламы. Раскрыть данные мы можем только по требованию закона.</p>
+
+    <h2>5. Письма вашим контактам</h2>
+    <p>Когда вы добавляете контакт, ему приходит короткое письмо о том, что такое Okayday, со ссылкой для подтверждения. Дальше контакт получает письма, только если вы пропустили отметку (и отбой, если потом отметились), или тестовое письмо, если вы сами его отправили. Контакт может попросить удалить свой адрес, написав нам на <a href="mailto:alexei.popov87@gmail.com">alexei.popov87@gmail.com</a>.</p>
+    <p>Добавляя человека, вы подтверждаете, что он согласен получать такие письма.</p>
+
+    <h2>6. Хранение и удаление</h2>
+    <ul>
+      <li>Данные хранятся, пока вы пользуетесь приложением.</li>
+      <li><strong>«Настройки → Удалить мои данные»</strong> сразу удаляет с сервера ваш профиль, контакты, историю отметок и оповещений, а также анонимный аккаунт, затем стирает данные на телефоне.</li>
+      <li>Удаление приложения стирает данные только на телефоне. Чтобы удалить данные и с сервера, сначала нажмите «Удалить мои данные» или напишите нам: мы удалим их в течение 30 дней.</li>
+      <li>Журналы доставки писем хранятся у Resend ограниченное время по их правилам.</li>
+      <li>Резервное копирование данных приложения в облако Android выключено.</li>
+    </ul>
+
+    <h2>7. Безопасность</h2>
+    <p>Данные передаются только по зашифрованному соединению (HTTPS). Приложение не обращается к базе данных напрямую: все запросы идут через наши функции на сервере, которые проверяют анонимный аккаунт и App Check.</p>
+
+    <h2>8. Дети</h2>
+    <p>Приложение не предназначено для детей младше 13 лет, и мы сознательно не собираем их данные.</p>
+
+    <h2>9. Изменения</h2>
+    <p>Если политика изменится, мы обновим эту страницу и дату вверху. О существенных изменениях сообщим в приложении.</p>
+
+    <h2>10. Связь</h2>
+    <p>Вопросы о конфиденциальности и запросы на удаление: <a href="mailto:alexei.popov87@gmail.com">alexei.popov87@gmail.com</a>.</p>
+  </article>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <article id="en" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="meta">Okayday app for Android · Effective October 25, 2026</p>
+
+    <div class="summary">
+      <div class="card green"><strong>Only what alerts need</strong><p>Your name, schedule, check-ins and up to three contacts with their email. No location, ads or analytics.</p></div>
+      <div class="card green"><strong>No sign-up</strong><p>Your account is created anonymously. We don’t know your email, phone number or Google account.</p></div>
+      <div class="card amber"><strong>Emails only when needed</strong><p>Contacts get an introduction, an alert about a missed check-in and an all-clear. Nothing else.</p></div>
+      <div class="card amber"><strong>One-tap deletion</strong><p>“Settings → Delete my data” erases everything from your phone and our server right away.</p></div>
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p>The Okayday app (“the app”) is developed by LazyManDev (“we”). This policy explains what data the app handles, why, where it is stored and how to delete it. Questions: <a href="mailto:alexei.popov87@gmail.com">alexei.popov87@gmail.com</a>.</p>
+
+    <h2>2. What the app does</h2>
+    <p>Once a day you tap “I’m okay”. If there is no check-in by the time you chose, the app reminds you once more, and then our server emails the people you listed. The server, not the phone, decides that a check-in was missed: a phone can run out of battery or get lost.</p>
+    <p class="note">Okayday is not an emergency service or a medical device. In an emergency, call your local emergency number.</p>
+
+    <h2>3. What data we handle and why</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Data</th><th>Why</th><th>Where it is stored</th></tr></thead>
+        <tbody>
+          <tr><td>Your name (as you entered it)</td><td>So your contacts know who the email is about</td><td>Phone and server</td></tr>
+          <tr><td>Schedule: reminder time, time to respond, time zone, start date, pauses, language</td><td>So the server works out your deadline in your time zone and writes in your language</td><td>Phone and server</td></tr>
+          <tr><td>“I’m okay” check-ins (date and time)</td><td>To know you are okay and to show your history</td><td>Phone and server</td></tr>
+          <tr><td>Trusted contacts: name and email (up to 3), whether the contact confirmed</td><td>Introduction, missed check-in alert, all-clear, and a test email when you ask for one</td><td>Phone and server</td></tr>
+          <tr><td>Anonymous Firebase user ID</td><td>Links your data on the server to your phone without a sign-up</td><td>Phone and server</td></tr>
+          <tr><td>App Check tokens (Google Play Integrity)</td><td>Check that a request comes from the genuine app. This stops anyone from sending spam through our server</td><td>Checked by Google; we don’t store them</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>We do <strong>not</strong> collect your location, your phone’s address book (you type contacts in yourself), health data or advertising IDs, and we use no analytics.</p>
+    <p>The notification permission is used only for reminders on the phone itself.</p>
+
+    <h2>4. Who processes data for us</h2>
+    <ul>
+      <li><strong>Google Firebase</strong> (Cloud Firestore, Cloud Functions, Firebase Authentication, App Check): data storage and the server. Hosted in europe-west1 (Belgium, EU). <a href="https://firebase.google.com/support/privacy">Firebase privacy</a>.</li>
+      <li><strong>Resend</strong> (USA): sends the emails. It receives the recipient’s address, your name and the email text. <a href="https://resend.com/legal/privacy-policy">Resend privacy policy</a>.</li>
+    </ul>
+    <p>We don’t sell data, share it with advertisers or use it for ads. We disclose data only when the law requires it.</p>
+
+    <h2>5. Emails to your contacts</h2>
+    <p>When you add a contact, they get a short email explaining Okayday, with a link to confirm. After that they hear from us only if you miss a check-in (and get an all-clear if you check in later), or when you send a test email yourself. A contact can ask us to remove their address at <a href="mailto:alexei.popov87@gmail.com">alexei.popov87@gmail.com</a>.</p>
+    <p>By adding someone, you confirm they agree to receive these emails.</p>
+
+    <h2>6. Retention and deletion</h2>
+    <ul>
+      <li>We keep the data while you use the app.</li>
+      <li><strong>“Settings → Delete my data”</strong> immediately deletes your profile, contacts, check-in and alert history and the anonymous account from our server, then erases the data on your phone.</li>
+      <li>Uninstalling the app erases the data on the phone only. To delete it from the server too, tap “Delete my data” first or email us: we delete it within 30 days.</li>
+      <li>Resend keeps email delivery logs for a limited time under its own rules.</li>
+      <li>Android cloud backup of the app’s data is turned off.</li>
+    </ul>
+
+    <h2>7. Security</h2>
+    <p>Data travels only over encrypted connections (HTTPS). The app never accesses the database directly: every request goes through our server functions, which check the anonymous account and App Check.</p>
+
+    <h2>8. Children</h2>
+    <p>The app is not meant for children under 13, and we do not knowingly collect their data.</p>
+
+    <h2>9. Changes</h2>
+    <p>If this policy changes, we will update this page and the date at the top. We will announce important changes in the app.</p>
+
+    <h2>10. Contact</h2>
+    <p>Privacy questions and deletion requests: <a href="mailto:alexei.popov87@gmail.com">alexei.popov87@gmail.com</a>.</p>
+  </article>
+
+  <footer>© 2026 LazyManDev · Okayday</footer>
+</div>
+<script>
+  (function () {
+    var root = document.documentElement;
+    root.classList.add('js');
+    var articles = { ru: document.getElementById('ru'), en: document.getElementById('en') };
+    var links = document.querySelectorAll('.lang a');
+    function show(lang) {
+      Object.keys(articles).forEach(function (key) { articles[key].hidden = key !== lang; });
+      links.forEach(function (a) { a.setAttribute('aria-current', String(a.dataset.lang === lang)); });
+      root.lang = lang;
+      document.title = lang === 'ru' ? 'Okayday — Политика конфиденциальности' : 'Okayday — Privacy Policy';
+    }
+    links.forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        show(a.dataset.lang);
+        history.replaceState(null, '', '#' + a.dataset.lang);
+      });
+    });
+    var hash = location.hash.slice(1);
+    var preferred = (navigator.language || 'en').toLowerCase().indexOf('ru') === 0 ? 'ru' : 'en';
+    show(articles[hash] ? hash : preferred);
+  })();
+</script>
+</body>
+</html>
